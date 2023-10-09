@@ -1,0 +1,37 @@
+.pay-highlight{
+    width: fit-content;
+    background-color: var(--dark-green);
+    padding: 2px 10px;
+    padding-top: 5px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid #015a3d;
+}
+.hero{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+.date-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.bars{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px;
+    height: 100%;
+}
+.bar{
+    height: 30px;
+    width: 100%;
+    background: linear-gradient(45deg, #10d8f2, #a6ef67);
+}

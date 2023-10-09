@@ -1,0 +1,11 @@
+.offer{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    gap: 20px;
+}
+.offer-card{
+    width: 100%;
+    background: var(--green-color);
+    border-radius: 10px;
+}

@@ -1,0 +1,30 @@
+
+
+.highlight-card{
+    background: url('../images/low-poly-grid-haikei.svg') no-repeat center;
+    background-size: cover;
+    color: #000000;
+    text-align: left;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.h-card-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+}
+.h-card-header img{
+    width: 100px;
+    max-height: 100px !important;
+}
+.h-card-body{
+    background-color: var(--green-color);
+    min-height: 150px;
+    border-radius: 50px 50px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 10px;
+}

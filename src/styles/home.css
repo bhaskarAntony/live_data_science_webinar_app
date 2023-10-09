@@ -1,0 +1,5 @@
+.home{
+    /* background-color: var(--black-color); */
+    background: url('../images/home-page-svg.svg') no-repeat center;
+    background-size: cover;
+}
