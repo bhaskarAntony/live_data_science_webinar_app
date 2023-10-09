@@ -1,0 +1,14 @@
+header{
+    position: sticky !important;
+    top: 0;
+    z-index: 10;
+}
+.nav-link:hover{
+    color: var(--green-color) !important;
+}
+.nav-item .active{
+    color: var(--green-color) !important;
+}
+.navbar-brand img{
+    width: 150px;
+}

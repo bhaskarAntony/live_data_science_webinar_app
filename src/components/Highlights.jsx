@@ -3,17 +3,17 @@ import '../styles/highlights.css'
 
 const highlights = [
     {
-        image:"",
+        image:"https://cdn-icons-png.flaticon.com/128/10789/10789560.png",
         title:"Actionable Knowledge",
         content:"Acquire valuable, hands-on insights to launch your data science career effectively"
     },
     {
-        image:"",
+        image:"https://cdn-icons-png.flaticon.com/128/7257/7257539.png",
         title:"Q&A Sessions",
         content:"Get your burning questions answered by industry experts in real time"
     },
     {
-        image:"",
+        image:"https://cdn-icons-png.flaticon.com/128/9464/9464456.png",
         title:"Industry Demand",
         content:"Learn from experts about the current job market's robust demand for careers in Data Science"
     },
@@ -23,12 +23,12 @@ const highlights = [
         content:"Attend our workshop conveniently from your own home"
     },
     {
-        image:"",
+        image:"https://cdn-icons-png.flaticon.com/128/3660/3660781.png",
         title:"Engage and Connect",
         content:"Interact with seasoned industry professionals and fellow enthusiasts for an interactive learning experience"
     },
     {
-        image:"",
+        image:"https://cdn-icons-png.flaticon.com/128/3387/3387740.png",
         title:"E-Certificate and study Material",
         content:"We offer E-certificates upon completion of the webinar and provide study materials"
     },
