@@ -3,7 +3,7 @@ import '../styles/registration.css'
 
 function Registration() {
   return (
-    <div className='registration p-1 px-lg-3'>
+    <section className='registration p-1 px-lg-3' id='register'>
        <div className="registration-form-container text-center">
                 <div className="card register-form">
                     <div className="card-header text-start">
@@ -35,7 +35,7 @@ function Registration() {
                     </div>
                 </div>
             </div>
-    </div>
+    </section>
   )
 }
 

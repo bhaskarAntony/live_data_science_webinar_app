@@ -3,7 +3,7 @@ import '../styles/enroll.css'
 
 function Enroll() {
   return (
-    <div className='enroll container mt-5'>
+    <section className='enroll container mt-5' id='enroll'>
         <div className="row d-flex justify-content-center">
             <div className="col-12 col-md-8 col-lg-6">
             <div className="enroll-card">
@@ -24,7 +24,7 @@ function Enroll() {
         <div className="text-center mt-5">
             <button className="main-btn px-5 text-700">Register Now <del>1000/-</del> 199/-</button>
         </div>
-    </div>
+    </section>
   )
 }
 

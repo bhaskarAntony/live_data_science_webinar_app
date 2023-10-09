@@ -5,7 +5,7 @@ import OfferEnds from './OfferEnds'
 
 function HomeHero() {
   return (
-    <section className='hero text-center p-lg-4 p-2'>
+    <section className='hero text-center p-lg-4 p-2' id='home'>
         <div className="pay-highlight text-center">
             <p className="p-large"> Early Bird Offer : Price resets to  <del className='mx-2'>1000/- </del> <span className="text-main">Rs 199/-</span> when the timer below hits 0. <i class="bi bi-arrow-right mx-4"></i></p>
            
