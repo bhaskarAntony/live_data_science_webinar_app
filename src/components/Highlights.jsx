@@ -30,14 +30,14 @@ const highlights = [
     {
         image:"https://cdn-icons-png.flaticon.com/128/3387/3387740.png",
         title:"E-Certificate and study Material",
-        content:"We offer E-certificates upon completion of the webinar and provide study materials"
+        content:"We offer E-certificates upon completion of the workshop and provide study materials"
     },
 ]
 
 function Highlights() {
   return (
     <section className='highlights text-center mt-5' id='highlight'>
-        <h1 className="heading text-white mb-5">Data Science Webinar <span className='text-main'>Highlights</span></h1>
+        <h1 className="heading text-white mb-5">Data Science Workshop <span className='text-main'>Highlights</span></h1>
         <div className="container mt-3">
             <div className="row">
             {
@@ -58,7 +58,7 @@ function Highlights() {
             </div>
         </div>
         <div className="text-center mt-5">
-            <button className="main-btn px-5 text-700">Register Now <del>1000/-</del> 199/-</button>
+        <a href="#register" className='text-decoration-none'><button className="main-btn px-5 text-700">Register Now <del>1000/-</del> 199/-</button></a>
         </div>
     </section>
   )

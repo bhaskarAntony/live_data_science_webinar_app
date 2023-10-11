@@ -4,7 +4,7 @@ import '../styles/about.css'
 function About() {
         const counter  = () => {
           // Set the date we're counting down to
-      let countDownDate = new Date("Oct 14, 2023 12:00:00").getTime();
+      let countDownDate = new Date("Oct 28, 2023 10:30:00").getTime();
 
       // Update the count down every 1 second
       let x = setInterval(function() {
@@ -44,7 +44,7 @@ counter()
         <div className="container">
             <div className="row">
                 <div className="col-lg-6 col-md-12 col-sm-12 align-item-center">
-                    <h1 className=" text-white"> About <span className="text-main">webinar</span> </h1>
+                    <h1 className=" text-white"> About <span className="text-main">Workshop</span> </h1>
                     <h5 className="text-secondary">
                     
                     </h5>
@@ -55,6 +55,7 @@ counter()
                           <div className="card-body">
                              <h4 className='text-700'> <i className="bi bi-geo-alt text-main-1"></i> Where</h4>
                              <h6 className="text-main-1"> Be Practical Tech Solutions</h6>
+                             <h5 className="text-main-1"> <b>Mode: </b> Online</h5>
                           </div>
                         </div>
                     </div>
@@ -105,7 +106,7 @@ counter()
         
     </section>
     <div className="text-center mt-5">
-    <button className="main-btn px-5 text-700">Register Now <del>1000/-</del> 199/-</button>
+    <a href="#register" className='text-decoration-none'><button className="main-btn px-5 text-700">Register Now <del>1000/-</del> 199/-</button></a>
 </div>
   </>
   )

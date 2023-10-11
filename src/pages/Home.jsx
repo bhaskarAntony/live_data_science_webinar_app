@@ -16,7 +16,7 @@ function Home() {
       <Works/>
       <About/>
       <div className="container-fluid bg-main mt-5 offer-end-section p-3 d-flex justify-content-center">
-          <a href="" className='text-decoration-none'>
+          <a href="#register" className='text-decoration-none'>
           <div className="pay-highlight text-center bg-black">
             <p className="p-large"> Early Bird Offer : Price resets to  <del className='mx-2'>1000/- </del> <span className="text-main">Rs 199/-</span> when the timer below hits 0. <i class="bi bi-arrow-right mx-4"></i></p>
            
