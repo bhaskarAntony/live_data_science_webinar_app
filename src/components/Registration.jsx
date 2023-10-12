@@ -132,7 +132,7 @@ function Registration() {
             .then((res) => {
               setLoading(false);
               toast.info("To Complete registration. Pay Rs.199 to secure your spot on the webinar.");
-              window.location.href = 'https://razorpay.me/@bepracticaltechsolutions?amount=KxK8ikz%2BGFZ8lMDydVeeuA%3D%3D';
+              window.location.href = 'https://pages.razorpay.com/be-practial-webinar';
             })
             .catch((err) => toast.error(err.message));
         } catch (err) {
